@@ -8,7 +8,7 @@ start_timer = time.perf_counter()
 print('スキャン開始...')
 
 # host = テスト対象、src_port = テスト者（ランダムポート）、ports = list(テスト範囲)
-host = "5e3914f3.mbsdcc2021.net"
+host = "テスト対象"
 src_port = random.randint(1025,65534)
 ports = list(range(1,65536))
 print("スキャン対象：{} , スキャン範囲：{} ~ {}".format(host,ports[0],ports[-1]))
